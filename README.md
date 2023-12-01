@@ -26,7 +26,7 @@ private $database_name = 'your_database_name';
 
 3. Include autoload.php file in your file
 
-```bash
+```php
 require_once __DIR__ . '/autoload.php';
 ```
 
@@ -48,7 +48,7 @@ $data = [
 $limit = 10;
 ```
 
-3. Create an instance of the Class class and pass data and limit to it.
+3. Create an instance of the Pagination class and pass data and limit to it.
 
 ```php
 $paginator = new Pagination($data, $limit);
